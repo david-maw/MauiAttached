@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiAttached"
+             x:Class="MauiAttached.MainPage">
+
+    <local:ColumnLayout x:Name="columnLayout">
+        <local:ColumnLayout.GestureRecognizers>
+            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+        </local:ColumnLayout.GestureRecognizers>
+        <Label Text="Header"/>
+        <!--<Label Text="Line 1" local:ColumnLayout.Fill="true"/>-->
+        <Label x:Name="line2" Text="Line 2"/>
+        <Label Text="Footer"/>
+    </local:ColumnLayout>    
+
+</ContentPage>
