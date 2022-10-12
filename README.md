@@ -1,3 +1,1 @@
-# MauiAttached
-
-Repo for [MAUI issue #10562](https://github.com/dotnet/maui/issues/10652)
+Repo for [MAUI issue #10652](https://github.com/dotnet/maui/issues/10652)
