@@ -5,12 +5,12 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-        columnLayout.SetFill(line2, true);
+        ColumnLayout.SetFill(line2, true);
     }
 
     private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
 	{
-		columnLayout.SetFill(line2,!columnLayout.GetFill(line2));
+		ColumnLayout.SetFill(line2,!ColumnLayout.GetFill(line2));
     }
 }
 

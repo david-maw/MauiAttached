@@ -18,18 +18,18 @@ public class ColumnLayout : VerticalStackLayout
     }
 
     // Support methods for the attached property
-    public bool GetFill(BindableObject bindableObject)
+    public static bool GetFill(BindableObject bindableObject)
     {
         return (bool)bindableObject.GetValue(FillProperty);
     }
     
-    public void SetFill(BindableObject bindableObject, bool fill)
+    public static void SetFill(BindableObject bindableObject, bool fill)
     {
         bindableObject.SetValue(FillProperty, fill);
     }
 
     // Convenience method for use from the layout manager
-    public bool GetFillForView(IView view)
+    internal static bool GetFillForView(IView view)
     {
         if (view is BindableObject bindableObject)
         {

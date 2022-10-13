@@ -9,7 +9,7 @@
             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
         </local:ColumnLayout.GestureRecognizers>
         <Label Text="Header"/>
-        <!--<Label Text="Line 1" local:ColumnLayout.Fill="true"/>-->
+        <Label Text="Line 1" local:ColumnLayout.Fill="true"/>
         <Label x:Name="line2" Text="Line 2"/>
         <Label Text="Footer"/>
     </local:ColumnLayout>    

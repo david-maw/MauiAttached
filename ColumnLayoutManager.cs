@@ -26,7 +26,7 @@ public class ColumnLayoutManager : ILayoutManager
         {
             var child = stackLayout[n];
 
-            if (_columnLayout.GetFillForView(child))
+            if (ColumnLayout.GetFillForView(child))
             {
                 grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Star });
             }
